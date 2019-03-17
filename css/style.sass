@@ -79,28 +79,28 @@ a:hover
 
   /* #Colors================================================== */
 
-.checkbox-color-red:checked + label:before,
-.checkbox-color-red:not(:checked) + label:before
+.checkbox-red:checked + label:before,
+.checkbox-red:not(:checked) + label:before
   border: 1px solid #e74c3c
 
-.checkbox-color-red:checked + label:after,
-.checkbox-color-red:not(:checked) + label:after
+.checkbox-red:checked + label:after,
+.checkbox-red:not(:checked) + label:after
   background-color: #e74c3c
 
-.checkbox-color-purple:checked + label:before,
-.checkbox-color-purple:not(:checked) + label:before
+.checkbox-purple:checked + label:before,
+.checkbox-purple:not(:checked) + label:before
   border: 1px solid #8e44ad
 
-.checkbox-color-purple:checked + label:after,
-.checkbox-color-purple:not(:checked) + label:after
+.checkbox-purple:checked + label:after,
+.checkbox-purple:not(:checked) + label:after
   background-color: #8e44ad
 
-.checkbox-color-green:checked + label:before,
-.checkbox-color-green:not(:checked) + label:before
+.checkbox-green:checked + label:before,
+.checkbox-green:not(:checked) + label:before
   border: 1px solid #2ecc71
 
-.checkbox-color-green:checked + label:after,
-.checkbox-color-green:not(:checked) + label:after
+.checkbox-green:checked + label:after,
+.checkbox-green:not(:checked) + label:after
   background-color: #2ecc71
 
 .checkbox-blue:checked + label:before,
@@ -124,20 +124,20 @@ a:hover
   box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.7)
   -webkit-transition: all 0.3s ease
   transition: all 0.3s ease
-.box.color-red
+.box.red
   background-color: #e74c3c
-.box.color-purple
+.box.purple
   background-color: #8e44ad
-.box.color-green
+.box.green
   background-color: #2ecc71
 .box.blue
   background-color: #2980b9
 .box.yellow
   background-color: #f1c40f
 
-.box.color-red,
-.box.color-purple,
-.box.color-green,
+.box.red,
+.box.purple,
+.box.green,
 .box.blue,
 .box.yellow
   opacity: 0
@@ -150,9 +150,9 @@ a:hover
   -webkit-transition: all 0.3s ease
   transition: all 0.3s ease
   
-.checkbox-color-red:checked ~ .box.color-red,
-.checkbox-color-purple:checked ~ .box.color-purple,
-.checkbox-color-green:checked ~ .box.color-green,
+.checkbox-red:checked ~ .box.red,
+.checkbox-purple:checked ~ .box.purple,
+.checkbox-green:checked ~ .box.green,
 .checkbox-blue:checked ~ .box.blue,
 .checkbox-yellow:checked ~ .box.yellow
   opacity: 1
@@ -168,23 +168,23 @@ a:hover
   transition: all 0.3s ease
 
 @media (max-width: 1199px)
-  .checkbox-color-red:checked ~ .box.color-red,
-  .checkbox-color-purple:checked ~ .box.color-purple,
-  .checkbox-color-green:checked ~ .box.color-green,
+  .checkbox-red:checked ~ .box.red,
+  .checkbox-purple:checked ~ .box.purple,
+  .checkbox-green:checked ~ .box.green,
   .checkbox-blue:checked ~ .box.blue,
   .checkbox-yellow:checked ~ .box.yellow
     min-width: calc(33.333333333333% - 20px)
 @media (max-width: 991px)
-  .checkbox-color-red:checked ~ .box.color-red,
-  .checkbox-color-purple:checked ~ .box.color-purple,
-  .checkbox-color-green:checked ~ .box.color-green,
+  .checkbox-red:checked ~ .box.red,
+  .checkbox-purple:checked ~ .box.purple,
+  .checkbox-green:checked ~ .box.green,
   .checkbox-blue:checked ~ .box.blue,
   .checkbox-yellow:checked ~ .box.yellow
     min-width: calc(50% - 20px)
 @media (max-width: 575px)
-  .checkbox-color-red:checked ~ .box.color-red,
-  .checkbox-color-purple:checked ~ .box.color-purple,
-  .checkbox-color-green:checked ~ .box.color-green,
+  .checkbox-red:checked ~ .box.red,
+  .checkbox-purple:checked ~ .box.purple,
+  .checkbox-green:checked ~ .box.green,
   .checkbox-blue:checked ~ .box.blue,
   .checkbox-yellow:checked ~ .box.yellow
     min-width: calc(100% - 20px)
